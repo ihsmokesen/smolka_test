@@ -1,11 +1,11 @@
 package com.senla.iharsmolka;
 
-import com.senla.iharsmolka.task1.FirstTaskDemo;
-import com.senla.iharsmolka.task2.SecondTaskDemo;
-import com.senla.iharsmolka.task3.ThirdTaskDemo;
-import com.senla.iharsmolka.task4.FourthTaskDemo;
-import com.senla.iharsmolka.task5.FiveTaskDemo;
-import com.senla.iharsmolka.task6.SixTaskDemo;
+import com.senla.iharsmolka.task.task1.FirstTaskDemo;
+import com.senla.iharsmolka.task.task2.SecondTaskDemo;
+import com.senla.iharsmolka.task.task3.ThirdTaskDemo;
+import com.senla.iharsmolka.task.task4.FourthTaskDemo;
+import com.senla.iharsmolka.task.task5.FifthTaskDemo;
+import com.senla.iharsmolka.task.task6.SixthTaskDemo;
 
 public class MainDemo extends TaskDemo {
     @Override
@@ -39,11 +39,11 @@ public class MainDemo extends TaskDemo {
                         break;
                     }
                     case 5: {
-                        (new FiveTaskDemo()).startDemo();
+                        (new FifthTaskDemo()).startDemo();
                         break;
                     }
                     case 6: {
-                        (new SixTaskDemo()).startDemo();
+                        (new SixthTaskDemo()).startDemo();
                         break;
                     }
                     default:
